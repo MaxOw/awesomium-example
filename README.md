@@ -82,7 +82,7 @@ form:
 handle :: WebView -> String -> String -> [Value] -> IO ()
 ```
 
-And where function arguments are list of `[Data.Aeson.Value][4]`, so
+And where function arguments are list of [Data.Aeson.Values][4], so
 you can easily parse it for any type that provides instance of
 `FromJSON` which can be easily automated for example by using
 `DeriveGeneric` (as described [here][5]).
