@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html,body {
+    overflow: hidden;
+}
+
+nav {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 260px;
+    margin: 20px;
+    padding: 5px;
+    color:#9FA4AA;
+    background-color:#4B4B4B;
+    border:1px solid #464646;
+}
+
+nav h1 {
+    font-weight: bold;
+    margin:10px;
+    padding-bottom:10px;
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+    color:#ACACAC;
+    border-bottom:1px solid #464646;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li {
+    padding: 5px 10px;
+}

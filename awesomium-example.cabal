@@ -7,5 +7,12 @@ cabal-version:       >=1.8
 executable awesomium-example
   hs-source-dirs:  src
   main-is:         Main.hs
-  build-depends  : base == 4.5.*, OpenGL, GLUT
-                 , awesomium-raw, awesomium, awesomium-glut
+  
+  build-depends  : base == 4.5.*
+                 , ghc-prim
+                 , fclabels
+                 , OpenGL, GLUT
+                 , aeson
+                 , awesomium-raw
+                 , awesomium
+                 , awesomium-glut
